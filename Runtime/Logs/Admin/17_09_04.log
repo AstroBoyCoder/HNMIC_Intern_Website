@@ -1,0 +1,988 @@
+[ 2017-09-04T00:07:57+08:00 ] 202.100.214.103 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.063927s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.136207s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.136289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010953s ]
+
+[ 2017-09-04T00:08:02+08:00 ] 202.100.214.103 /admin.php?s=/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001655s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-09-04T00:08:10+08:00 ] 202.100.214.103 /admin.php?s=/Public/verify.html&random=0.8723382654622811
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010615s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-09-04T00:08:12+08:00 ] 202.100.214.103 /admin.php?s=/Public/verify.html&random=0.5210174609187019
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001601s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-04T00:08:13+08:00 ] 117.185.27.113 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-09-04T00:08:23+08:00 ] 202.100.214.103 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: lite D:\home\site\wwwroot\ThinkPHP\Library\Think\Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0084s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `mic_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `mic_action` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `mic_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_action_log` [ RunTime:0.0145s ]
+SQL: INSERT INTO `mic_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('1','1','-899361177','member','1','1504454898','xuwei在2017-09-04 00:08登录了后台') [ RunTime:0.0189s ]
+SQL: SELECT * FROM `mic_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 D:\home\site\wwwroot\Application\Common\Common\function.php 第 679 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\home\site\wwwroot\Application\Common\Common\function.php 第 679 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_action_log` WHERE `action_id` = 1 AND `user_id` = 1 AND `create_time` > 1504368498 LIMIT 1   [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0006s ]
+SQL: UPDATE `mic_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.0014s ]
+SQL: UPDATE `mic_member` SET `login`=`login`+1,`last_login_time`='1504454898',`last_login_ip`='3395606119' WHERE `uid` = 1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-09-04T00:08:27+08:00 ] 202.100.214.103 /admin.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002615s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0063s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0071s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_member` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mic_action_log` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_action_log` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_document` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_model` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.140684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.882919s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.882965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-09-04T00:08:39+08:00 ] 202.100.214.103 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006755s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0064s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0225s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `mic_auth_group_access` [ RunTime:1.1475s ]
+SQL: SELECT `extend_id` FROM mic_auth_group_access g INNER JOIN mic_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:1.0684s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `mic_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.1639s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY level DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: groups D:\home\site\wwwroot\Application\Admin\Controller\ArticleController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.368044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.368123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-09-04T00:08:50+08:00 ] 180.97.35.165 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014434s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-09-04T00:08:50+08:00 ] 180.97.35.165 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007855s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-09-04T00:08:52+08:00 ] 202.100.214.103 /admin.php?s=/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001569s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0136s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0017s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Comment/index%' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 124  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 124 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '评论列表' AND `pid` = 124 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: p D:\home\site\wwwroot\Application\Admin\Controller\CommentController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'comment' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_comment` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`uid`,`content`,`article_id`,`comment_time`,`status` FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 4  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-09-04T00:08:56+08:00 ] 202.100.214.103 /admin.php?s=/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `mic_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-09-04T00:09:06+08:00 ] 202.100.214.103 /admin.php?s=/Database/index/type/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012781s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0015s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Database/index%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SHOW TABLE STATUS [ RunTime:4.5426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-04T00:09:12+08:00 ] 202.100.214.103 /admin.php?s=/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.058763s ]
+INFO: [ app_init ] --END-- [ RunTime:0.064746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0109s ]
+SQL: SELECT `title`,`name` FROM `mic_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Addons/index%' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0062s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist` FROM `mic_addons` WHERE `name` IN ('Attachment','DevTeam','Editor','EditorForAdmin','SiteStat','SocialComment','SystemInfo')  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0008s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'Attachment' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SocialComment' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'Editor' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'EditorForAdmin' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-09-04T00:09:12+08:00 ] 202.100.214.103 /admin.php?s=/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001849s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0026s ]
+SQL: SELECT `title`,`name` FROM `mic_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Addons/index%' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 43  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 43 AND `hide` = 0  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '扩展' AND `pid` = 43 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist` FROM `mic_addons` WHERE `name` IN ('Attachment','DevTeam','Editor','EditorForAdmin','SiteStat','SocialComment','SystemInfo')  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0009s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'Attachment' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SocialComment' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'Editor' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'EditorForAdmin' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.161405s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.161466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-09-04T00:09:18+08:00 ] 14.215.176.143 /admin.php?s=/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0018s ]
+SQL: SELECT `title`,`name` FROM `mic_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0032s ]
+
+[ 2017-09-04T00:09:18+08:00 ] 14.215.176.143 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001790s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-09-04T00:09:21+08:00 ] 115.239.212.5 /admin.php?s=/Database/index/type/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001723s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-09-04T00:09:21+08:00 ] 115.239.212.5 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008748s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-09-04T00:09:33+08:00 ] 202.100.214.103 /admin.php?s=/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011859s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Comment/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 124  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 124 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '评论列表' AND `pid` = 124 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: p D:\home\site\wwwroot\Application\Admin\Controller\CommentController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'comment' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_comment` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`uid`,`content`,`article_id`,`comment_time`,`status` FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 4  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-09-04T00:09:42+08:00 ] 202.100.214.103 /admin.php?s=/comment/index/module/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008595s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Comment/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 124  [ RunTime:0.0061s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 124 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '评论列表' AND `pid` = 124 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: p D:\home\site\wwwroot\Application\Admin\Controller\CommentController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'comment' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `mic_comment` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`uid`,`content`,`article_id`,`comment_time`,`status` FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_comment` WHERE `status` <> '-1' AND `pid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 4  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-09-04T00:09:43+08:00 ] 14.215.176.135 /admin.php?s=/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-09-04T00:09:43+08:00 ] 14.215.176.135 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006922s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-09-04T00:09:46+08:00 ] 202.100.214.103 /admin.php?s=/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001875s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0012s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%User/index%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 16  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 16 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '用户管理' AND `pid` = 16 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '行为管理' AND `pid` = 16 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_member` WHERE `status` >= 0 AND `nickname` LIKE '%%' LIMIT 1   [ RunTime:0.0071s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `mic_member` WHERE `status` >= 0 AND `nickname` LIKE '%%' ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.387415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.387495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-09-04T00:09:49+08:00 ] 202.100.214.103 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001803s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `extend_id` FROM mic_auth_group_access g INNER JOIN mic_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `mic_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY level DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: groups D:\home\site\wwwroot\Application\Admin\Controller\ArticleController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-09-04T00:09:57+08:00 ] 202.100.214.103 /admin.php?s=/Partner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010924s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2048] Declaration of Admin\Controller\PartnerController::setStatus() should be compatible with Admin\Controller\AdminController::setStatus($Model = Admin\Controller\CONTROLLER_NAME) D:\home\site\wwwroot\Application\Admin\Controller\PartnerController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0019s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Partner/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 129 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 129  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 129 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '实习生列表' AND `pid` = 129 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'partner' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `mic_model` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0016s ]
+SQL: SELECT `p_name`,`p_sex`,`p_current_job`,`p_address`,`p_hobby`,`p_station`,`id` FROM `mic_partner` WHERE `p_year` = 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_partner` WHERE `p_year` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 5  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\home\site\wwwroot\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 95 行.
+NOTIC: [8] Use of undefined constant del - assumed 'del' D:\home\site\wwwroot\Runtime\Cache\Admin\b00d2dc38a9c99b026d9919a1acc8aaf.php 第 96 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+NOTIC: [8] Undefined index: category_id D:\home\site\wwwroot\Application\Admin\Common\function.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.597218s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.597284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-09-04T00:11:29+08:00 ] 202.100.214.103 /admin.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.018878s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0034s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0022s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_member` LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `mic_action_log` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_action_log` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_document` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_model` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.074877s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.063848s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.063903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-09-04T00:11:45+08:00 ] 180.97.35.165 /admin.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011738s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+
+[ 2017-09-04T00:11:45+08:00 ] 180.97.35.165 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007577s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-09-04T00:12:32+08:00 ] 202.100.214.103 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `mic_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT DISTINCT  `group` FROM `mic_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `mic_menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `mic_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `mic_auth_group_access` [ RunTime:0.0018s ]
+SQL: SELECT `extend_id` FROM mic_auth_group_access g INNER JOIN mic_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `mic_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `mic_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM mic_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY level DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `extend` FROM `mic_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_attribute` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `mic_attribute` WHERE `model_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: groups D:\home\site\wwwroot\Application\Admin\Controller\ArticleController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-09-04T00:12:34+08:00 ] 202.100.214.103 /admin.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007760s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `mic_menu` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`url` FROM `mic_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `mic_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:0.0023s ]
+SQL: SELECT `config` FROM `mic_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_member` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_member` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_action_log` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_action_log` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_document` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_category` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_model` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mic_model` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.061359s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.061399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-09-04T00:18:45+08:00 ] 111.206.36.135 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021759s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006301s ]
+
+[ 2017-09-04T02:52:46+08:00 ] 14.215.176.144 /admin.php?s=/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.066806s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010389s ]
+
+[ 2017-09-04T02:52:47+08:00 ] 14.215.176.144 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015174s ]
+
+[ 2017-09-04T09:56:37+08:00 ] 113.59.99.237 /admin.php?s=/Article/edit/id/6/model/2/cate_id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.082457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.095765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012950s ]
+
+[ 2017-09-04T11:55:38+08:00 ] 14.215.176.11 /admin.php?s=/Partner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.064188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010666s ]
+NOTIC: [2048] Declaration of Admin\Controller\PartnerController::setStatus() should be compatible with Admin\Controller\AdminController::setStatus($Model = Admin\Controller\CONTROLLER_NAME) D:\home\site\wwwroot\Application\Admin\Controller\PartnerController.class.php 第 3 行.
+
+[ 2017-09-04T11:55:39+08:00 ] 14.215.176.11 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.307462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.307546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012048s ]
+
+[ 2017-09-04T23:43:01+08:00 ] 14.215.176.140 /admin.php?s=/comment/index/module/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.070840s ]
+INFO: [ app_init ] --END-- [ RunTime:0.082740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016801s ]
+
+[ 2017-09-04T23:43:05+08:00 ] 14.215.176.140 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.488387s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.488466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016542s ]
+

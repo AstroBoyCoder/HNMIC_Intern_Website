@@ -1,0 +1,1612 @@
+[ 2017-08-14T10:37:22+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.126016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.186272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1013s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012325s ]
+
+[ 2017-08-14T10:37:22+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003721s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0056s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-08-14T15:19:58+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.082835s ]
+INFO: [ app_init ] --END-- [ RunTime:0.156435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004686s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.2076s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.199261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011306s ]
+
+[ 2017-08-14T15:42:06+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.046995s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0822s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-08-14T15:42:14+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004298s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0058s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0865s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.248325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002689s ]
+
+[ 2017-08-14T15:42:20+08:00 ] ::1 /onethink/index.php?s=/Home/infomalessay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0058s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2017-08-14T15:42:21+08:00 ] ::1 /onethink/index.php?s=/Home/experience
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003850s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0695s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant HOME - assumed 'HOME' F:\tool\php\WWW\oneThink\Runtime\Cache\Home\317e5d888b6a51176df1ab4b576840d8.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2017-08-14T15:42:24+08:00 ] ::1 /onethink/index.php?s=/Home/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003800s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0063s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2017-08-14T15:42:30+08:00 ] ::1 /onethink/index.php?s=/Home/experience
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0376s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant HOME - assumed 'HOME' F:\tool\php\WWW\oneThink\Runtime\Cache\Home\317e5d888b6a51176df1ab4b576840d8.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2017-08-14T15:42:33+08:00 ] ::1 /onethink/index.php?s=/Home/infomalessay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002856s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0058s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-08-14T15:42:42+08:00 ] ::1 /onethink/index.php?s=/Home/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0056s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2017-08-14T15:43:50+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004775s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0052s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-08-14T16:36:14+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0078s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2017-08-14T16:37:56+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0055s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-08-14T16:58:13+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0226s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-08-14T16:58:48+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004681s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0063s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2017-08-14T16:58:54+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004996s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0857s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-08-14T16:59:46+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0062s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-08-14T16:59:49+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002588s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1771s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-08-14T17:06:04+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007762s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2017-08-14T17:08:27+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0054s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-08-14T17:13:13+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003651s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0056s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2017-08-14T17:13:43+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0068s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2017-08-14T17:15:16+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004503s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0065s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-08-14T17:15:56+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0056s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2017-08-14T17:17:30+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0078s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2017-08-14T17:24:52+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0087s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2017-08-14T17:27:23+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0059s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-08-14T17:28:07+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004415s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0061s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-08-14T17:28:18+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0065s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2017-08-14T17:29:56+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0066s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-08-14T17:31:51+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0089s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2017-08-14T17:32:00+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1953s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2017-08-14T17:33:26+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0091s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001929s ]
+
+[ 2017-08-14T17:33:43+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003576s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0062s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-08-14T17:39:13+08:00 ] ::1 /onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1145s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2017-08-14T17:39:17+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003773s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0087s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-08-14T17:44:23+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0088s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2017-08-14T17:45:18+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004930s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0105s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0052s ]
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-08-14T17:46:32+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0106s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0437s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-08-14T17:47:30+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0613s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0064s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-08-14T17:51:55+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004591s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0228s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0422s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-08-14T17:53:33+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0095s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0054s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+NOTIC: [8] Undefined index: p_img F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Undefined index: p_name F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 31 行.
+NOTIC: [8] Undefined index: p_station F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-08-14T17:54:12+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004618s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0098s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0399s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-08-14T17:54:58+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0058s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0051s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2017-08-14T17:55:42+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003807s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0101s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0388s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+NOTIC: [8] Array to string conversion F:\tool\php\WWW\oneThink\Runtime\Cache\Home\234c96bd7cd8162248b6749002ab886c.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2017-08-14T17:56:17+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003820s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0065s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0051s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-08-14T17:58:44+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003633s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0057s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0056s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0007s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2017-08-14T17:59:05+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004798s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0455s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2017-08-14T18:02:11+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004564s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0053s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0052s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-08-14T18:02:52+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0092s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0472s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-08-14T18:04:41+08:00 ] ::1 /onethink/index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005878s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0606s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0073s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2017-08-14T18:05:35+08:00 ] ::1 /onethink/index.php?s=/Home/experience
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004827s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1623s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Use of undefined constant HOME - assumed 'HOME' F:\tool\php\WWW\oneThink\Runtime\Cache\Home\317e5d888b6a51176df1ab4b576840d8.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2017-08-14T18:05:36+08:00 ] ::1 /onethink/index.php?s=/Home/infomalessay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004316s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1028s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2017-08-14T18:05:39+08:00 ] ::1 /onethink/index.php?s=/Home/experience
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004351s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1348s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant HOME - assumed 'HOME' F:\tool\php\WWW\oneThink\Runtime\Cache\Home\317e5d888b6a51176df1ab4b576840d8.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2017-08-14T18:05:40+08:00 ] ::1 /onethink/index.php?s=/Home/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0201s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `mic_partner` WHERE ( p_year=2017 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0054s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 2  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-08-14T18:05:41+08:00 ] ::1 /onethink/index.php?s=/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005894s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0114s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+

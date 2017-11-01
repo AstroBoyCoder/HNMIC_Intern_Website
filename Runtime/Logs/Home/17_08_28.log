@@ -1,0 +1,321 @@
+[ 2017-08-28T09:34:56+08:00 ] 113.59.99.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.021694s ]
+INFO: [ app_init ] --END-- [ RunTime:1.112117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043589s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1429s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.769863s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.769961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.055895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.100117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.100175s ]
+
+[ 2017-08-28T09:34:57+08:00 ] 47.74.8.184 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0035s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-08-28T09:34:58+08:00 ] 47.74.8.184 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001964s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.1969s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-08-28T09:35:37+08:00 ] 47.74.8.184 /index.php?s=/Home/Personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005975s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_partner` [ RunTime:0.1744s ]
+SQL: SELECT * FROM `mic_partner`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0008s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 54  [ RunTime:0.0047s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 55  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 48  [ RunTime:0.0061s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 49  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 50  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 51  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 52  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 53  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 31  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 32  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 97  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 99  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 42  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 43  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 45  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 46  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 56  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 57  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 58  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 59  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 60  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 61  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0060s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 12  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 63  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 13  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 64  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 65  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 66  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 68  [ RunTime:0.0060s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 69  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 71  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 70  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 72  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 73  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 75  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 74  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 76  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 77  [ RunTime:0.0062s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 79  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 78  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 80  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 81  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 11  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 83  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 86  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 85  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 87  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 88  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 90  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 89  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 91  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 92  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0061s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 95  [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 94  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.450437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.450522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-08-28T10:04:54+08:00 ] 113.59.99.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.064040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.074716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011226s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0619s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010260s ]
+
+[ 2017-08-28T10:05:02+08:00 ] 113.59.99.237 /index.php?s=/Home/infomalessay/jottings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003814s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0026s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`cover_id`,`create_time` FROM `mic_document` WHERE ( status!=-1 )  [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `mic_document_article` [ RunTime:0.0049s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0033s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0058s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-08-28T10:05:03+08:00 ] 112.65.193.15 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0089s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-08-28T10:05:10+08:00 ] 112.65.193.15 /index.php?s=/Home/infomalessay/jottings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009741s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.0021s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`cover_id`,`create_time` FROM `mic_document` WHERE ( status!=-1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mic_document_article` [ RunTime:0.0007s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mic_picture` [ RunTime:0.0051s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `path` FROM `mic_picture` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `exp_station` FROM `mic_document_article` WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+

@@ -1,0 +1,106 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		ul {
+			list-style: none;
+		}
+		.bg {
+			width: 100%;
+			background: #f5f5f5;
+			padding: 0 0 50px 0;
+		}
+		.catalog {
+			width: 80%;
+			height: 700px;
+			background: #fff;
+			margin: 0 auto;
+			padding-top:70px;
+			box-shadow: 6px 6px 9px #ccc;
+		}
+		.catalog_icon_ul {
+			margin: 0 auto;
+			width: 546px;
+			padding: 70px 0 90px 0 ;
+		}
+		.catalog_icon_ul li {
+			display: inline-block;
+			margin: 0 15px;
+			cursor: pointer;
+			width: 51px;
+			height: 47px;
+			z-index:100;
+		}
+		.catalog_icon_ul_li1 {
+			background: url(../images/customer_manager_gray.png) no-repeat;
+			
+		}
+		.catalog_icon_ul_li1_1 {
+			background: url(../images/customer_manager_blue.png) no-repeat;
+			
+		}
+		.catalog_icon_ul_li2 {
+			background: url(../images/transport_gray_logo.png) no-repeat;
+		}
+		.catalog_icon_ul_li2_1 {
+			background: url(../images/transport_bule_logo.png) no-repeat;
+		}
+		.catalog_icon_ul_li3 {
+			background: url(../images/front_end_gray.png) no-repeat;
+		}
+		.catalog_icon_ul_li3_1 {
+			background: url(../images/front_end_blue.png) no-repeat;
+		}
+		.catalog_icon_ul_li4 {
+			background: url(../images/back_end_gray.png) no-repeat;
+		}
+		.catalog_icon_ul_li4_1 {
+			background: url(../images/back_end_blue.png) no-repeat;
+		}
+		.catalog_icon_ul_li5 {
+			background: url(../images/ui_gray.png) no-repeat;
+		}
+		.catalog_icon_ul_li5_1 {
+			background: url(../images/ui_blue.png) no-repeat;
+		}
+		.catalog_icon_ul_li6 {
+			background: url(../images/project_gray_logo.png) no-repeat;
+		}
+		.catalog_icon_ul_li6_1 {
+			background: url(../images/project_blue_logo.png) no-repeat;
+		}
+		.catalog_text {
+			width: 80%;
+			margin: 0 auto;
+			line-height: 45px;
+		}
+		.catalog_text h4,
+		.catalog_text p {
+			display: inline-block;
+		} 
+		.catalog_text h4 { 
+			font-size: 25px;
+			color: #6d90a3;
+			letter-spacing: 2px;
+		}
+		.catalog_text p {
+			font-size: 16px;
+			text-indent: 4px;
+			font-weight: bold;
+			color:#333;
+		}
+		.catalog_text_right {
+			float: right;
+		}
+		.foot {
+			text-align: center;
+			padding: 55px 0;
+		}
+		.foot p {
+			line-height: 25px;
+			color: #252525;
+		}
+		.foot p:first-child {
+			font-weight: bold;
+			color: #000000;
+		}

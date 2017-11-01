@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>岗位经验目录</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/experience-catalog.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/nav.css">
+</head>
+
+<body>
+
+	<div class="bg">
+		<div class="navb">
+			<a class="logo" href="__MODULE__/Index"></a>
+			<ul class="nav">
+				<li><a href="__MODULE__/Index#HIP" style="color: white;" class="lih">HIP</a></li>
+				<li><a href="__MODULE__/personal" style="color: white;" class="lih">个人风采</a></li>
+				<li><a href="__MODULE__/Experience" style="color: white;" class="lih">岗位经验</a></li>
+				<li><a href="__MODULE__/infomalessay/jottings" style="color: white;" class="lih">随笔</a></li>
+			</ul>
+		</div>
+		<div class="catalog">
+			<div class="catalog_icon">
+				<ul class="catalog_icon_ul">
+					<li class="catalog_icon_ul_li1"></li>
+					<li class="catalog_icon_ul_li2"></li>
+					<li class="catalog_icon_ul_li3"></li>
+					<li class="catalog_icon_ul_li4"></li>
+					<li class="catalog_icon_ul_li5"></li>
+					<li class="catalog_icon_ul_li6"></li>
+				</ul>
+			</div>
+			<div class="catalog_text">
+				<volist name="data" id="item">
+					<h4><a href="__MODULE__/Experience/subpage/id/{$item['id']}" style="color:#6d90a3;"><img src="__IMG__/next_gray_icon.png" alt=""> {$station}感悟</a></h4>
+					<p> 作者：2017届{$station}</p>
+					<p class="catalog_text_right">{$item["create_time"]}</p>
+					<br>
+				</volist>
+			</div>
+		</div>
+	</div>
+
+	<div class="foot">
+		<p>Hi,partner</p>
+		<p>powered by HIP</p>
+		<p>Hi,partner © 2017 . PRIVACY POLICY</p>
+	</div>
+
+
+
+
+	<script src='__JS__/nav.js'></script>
+	<script src="__JS__/experience-catalog.js"></script>
+
+
+</body>
+
+</html>

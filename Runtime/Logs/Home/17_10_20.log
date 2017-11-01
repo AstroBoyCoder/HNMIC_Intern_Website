@@ -1,0 +1,23 @@
+[ 2017-10-20T21:59:21+08:00 ] 202.100.214.105 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.762920s ]
+INFO: [ app_init ] --END-- [ RunTime:1.795250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.274568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.274637s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:0.3380s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.1667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.897951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.898028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.066910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.066963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.062133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.062183s ]
+

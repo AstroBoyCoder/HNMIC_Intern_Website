@@ -1,0 +1,32 @@
+[ 2017-09-27T13:35:00+08:00 ] 123.125.67.219 /admin.php?s=/Addons/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.264324s ]
+INFO: [ app_init ] --END-- [ RunTime:1.357190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.106581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106658s ]
+SQL: SHOW COLUMNS FROM `mic_addons` [ RunTime:1.1195s ]
+SQL: SELECT `title`,`name` FROM `mic_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.3525s ]
+
+[ 2017-09-27T13:35:04+08:00 ] 123.125.67.224 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001671s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.666003s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.666072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.265272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.265367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.113827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.113883s ]
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>实习生个人风采</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/personal.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/nav.css">
+</head>
+
+<body>
+	<div class="personalwrapper">
+		<div class="navb">
+			<a class="logo" href="__MODULE__/Index"></a>
+			<ul class="nav">
+				<li><a href="__MODULE__/Index#HIP" style="color: white;" class="lih">HIP</a></li>
+				<li><a href="#" style="color: white;" class="lih">个人风采</a></li>
+				<li><a href="__MODULE__/Experience" style="color: white;" class="lih">岗位经验</a></li>
+				<li><a href="__MODULE__/infomalessay/jottings" style="color: white;" class="lih">随笔</a></li>
+			</ul>
+		</div>
+		<div class="title_bg">
+			<div class="title">
+				<h3>个人风采</h3>
+				<hr color="#DBDBDB" />
+				<p class="personaltext">这里将展示MIC历届实习生的风采</p>
+			</div>
+		</div>
+		<div class="personalwrapperimg" id="personalwrapperimg">
+			<volist name="list" id="vo">
+				<ul class="personalimg_content Horizontalcenter">
+					<volist name="vo" id="item">
+						<li class="personalimg_content_li">
+							<img src="__ROOT__{$item['p_img']}" id="{$item['id']}">
+							<p class="internname">{$item['p_name']}</p>
+							<p class="internjob">{$item['p_station']}</p>
+						</li>
+					</volist>
+					<?php
+						for($i=count($vo); $i<4; $i++){
+							echo "<li class='personalimg_content_li'></li>";
+						}
+					?>
+				</ul>
+			</volist>
+		</div>
+
+		<!-- 翻页组件 -->
+
+
+		<!-- 底部 -->
+		<div class="foot">
+			<p>Hi,partner</p>
+			<p>powered by HIP</p>
+			<p>Hi,partner © 2017 . PRIVACY POLICY</p>
+		</div>
+	</div>
+	<div id="screen"></div>
+	<volist name="list" id="vo">
+		<volist name="vo" id="item">
+			<div class="popup" id="{$item['id']}">
+				<div class="popup_left">
+					<div class="popup_left_head" style="background: url('__ROOT__{$item['p_small_img']}') center center;background-size:163px 163px;
+					
+					">
+					</div>
+					<div class="popup_left_text">
+						<h3>{$item['p_name']}</h3>
+						<div class="place">
+							<img src="__IMG__/site.png" alt="">
+							<em>{$item['p_address']}</em>
+						</div>
+					</div>
+				</div>
+
+				<div class="popup_right">
+					<div class="popup_right_message">
+						<div class="popup_right_message_text">
+
+							<span class="title">兴趣：</span>
+							<p>{$item['p_hobby']}</p>
+							<br>
+
+							<span class="title">学校：</span>
+							<p>{$item["p_school"]}</p>
+							<br>
+
+							<span class="title">对公司整体的看法：</span>
+							<p>{$item["p_view_to_company"]}</p>
+							<br>
+
+							<span class="title">对公司其他人描述：</span>
+							<p>{$item["p_view_to_other"]}</p>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</volist>
+	</volist>
+
+
+	<script src='__JS__/nav.js'></script>
+	<script type="text/javascript" src="__JS__/personal.js"></script>
+
+</body>
+
+</html>

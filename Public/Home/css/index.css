@@ -1,0 +1,301 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body html{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*导航栏*/
+.navb{
+	position: absolute;
+	top: 70px;
+	left: 28%;
+	width: 66%;	
+	z-index: 100;
+}
+.nav{
+	display: flex;
+}
+#login{
+	text-align: right;
+}
+.nav li{
+	flex: 1;
+	text-align: center;
+	line-height:40px;
+	height: 40px;
+
+}
+.nav li a{
+	display: inline-block;
+	width: 100%;
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+}
+.lih:hover{
+	background-color: #27b8d1;
+}
+.navlogin{
+	color:#fff;
+}
+
+#logo{
+	width:197px;
+	height: 37px;
+	position: absolute;
+	top: 70px;
+	left: 10%;
+	background-image:url('../images/Hip.png');
+	background-size: 100% 100%;
+	z-index:10;
+}
+#INTERN{
+	width:45%;
+	height: 160px;
+	position: absolute;
+	top: 230px;
+	left: 15%;
+	background-image:url('../images/INTERN.png');
+	background-size: 100% 100%;
+	z-index:100;
+}
+#button{
+	z-index:10;
+	position: absolute;
+	right:50px;
+	top: 230px;
+	height: 120px;
+	width: 45px;
+}
+#button img{
+	width: 30px;
+	height: 20px;
+}
+#button .turntop{
+	position: absolute;
+	top: 0px;
+}
+#button .turnbottom{
+	position: absolute;
+	bottom: 0px;
+}
+#homepic{
+	background-image:url('../images/home.jpg');
+	background-size: 100% 100%;
+	opacity:0.8;
+	z-index:1;
+}
+.home{
+	width: 100%;
+	height: 600px;
+}
+.wrapper_Content{
+	width: 100%;
+	height:450px;
+	background:#f4f4f4;
+	position: relative;
+	padding-top:142px;
+}
+.bottomContent{
+	position: absolute;
+	width: 70%;
+	height: 450px;
+	/*border: 1px solid red;*/
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.bottomContent_Left{
+	position: relative;
+	float: left;
+    width: 45%;
+	height: 450px;
+	/*border: 1px solid blue;*/
+}
+@media screen and (max-width:1030px) {
+    .bottomContent_Left{
+        max-width:50%
+    }
+}
+.bottomContent_Left_title{
+	height: 30px;
+	line-height: 30px;
+	font-weight: 800;
+	font-size: 16px;
+	border-bottom: 1px solid #547eee;
+	display: inline-block;
+}
+.bottomContent_Left_content{
+	margin-top: 10px;
+	width: 90%;
+	font-size: 14px;
+	line-height: 32px;
+}
+.bottomContent_Left_button{
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	background-color: #27b8d1;
+	display:block;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+}
+.bottomContent_Right{
+	float: right;
+    width: 50%;
+    max-width: 400px;
+    /* border: 1px solid black; */
+    margin-top: 28px;
+}
+
+/*底部*/
+.foot {
+	text-align: center;
+	padding: 55px 0;
+}
+.foot p {
+	line-height: 25px;
+	color: #252525;
+}
+.foot p:first-child {
+	font-weight: bold;
+	color: #000000;
+}
+
+
+
+.tc{
+	text-align: center
+}
+.fw6{
+	font-weight: 600;
+}
+.fw4{
+	font-weight: 400;
+}
+
+
+/*login*/
+		.main_box{
+			position: fixed;
+			top:50%;
+			left:50%;
+			margin-left:-240px;
+			margin-top: -240px;
+			background-color: #e0e0e0;
+			box-shadow: 2px 2px 1px #888888;
+			width: 480px;
+			height: 480px;
+			z-index: 9999;
+			border-radius: 10px;
+			display: none;
+		}
+
+		#screen {	
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #000;
+			z-index: 9998;
+			filter: alpha(opacity=50);/*IE*/
+			opacity: 0.5;/*非IE*/
+			display: none;
+		}
+	.login{
+			margin:0 auto;
+			width: 480px;
+			height: 410px;
+		}
+		.newaccount{
+			margin:0 auto;
+			height: 70px;
+			width: 480px;
+			background-color: white; 
+			text-align: center
+		}
+		.hip_logo{
+			margin-top:65px;
+			margin-bottom: 50px;
+			position: relative;
+		    left: 50%;
+		    margin-left: -70px;
+		}
+		.user_box{
+			height:55px;
+			margin:0 auto;
+			width: 380px;
+			border-radius:5px;
+			margin-bottom: 30px;
+			background-color: white;
+		}
+		input{
+			height:55px;
+			width:320px; 
+			border: none;
+			float: right;
+			position: relative;
+			top:-55px;
+			left: -3px;
+		}
+		.user_img{
+			position: relative;
+			top: 7px;
+			left: 10px;
+		}
+		.pw_img{
+			position: relative;
+			top: 7px;
+			left: 12px;
+		}
+		.pw_box{
+			margin:0 auto;
+			height:55px;
+			width: 380px;
+			border-radius:5px;
+			margin-bottom: 30px;
+			background-color: white;
+		}
+		.loginbutton{
+			position: relative;
+		    top: 50%;
+		    left: 50%;
+		    margin-left: -190px;
+			background-color: #27b8d1;
+			font-size: 25px;
+			color: white;
+			height:55px;
+			line-height: 55px;
+			width: 380px;
+			border-radius:5px;
+		}
+		.img_box{
+			height: 55px;
+			width: 90px;
+		}
+		.line1{
+			position: relative;
+			height: 35px;
+			display: inline-block;
+			border-right: 1px solid #e0e0e0;
+			top: 10px;
+			left: 10px;
+		}
+		.line2{
+			position: relative;
+			height: 35px;
+			display: inline-block;
+			border-right: 1px solid #e0e0e0;
+			top: 10px;
+			left: 16px;
+		}
+

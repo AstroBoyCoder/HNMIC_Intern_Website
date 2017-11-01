@@ -1,0 +1,7 @@
+[ 2017-10-31T17:25:27+08:00 ] ::1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002424s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003108s ]
+ERR: 无法加载模块:Admin
+

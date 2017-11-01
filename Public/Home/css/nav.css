@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+}
+.logo{
+	width:197px;
+	height: 37px;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+	background-image:url('../images/Hip.png');
+	background-size: 100% 100%;
+}
+.navb{
+	position: fixed;
+	top:0px;
+	height: 70px;
+	width: 100%;	
+	background:url('../images/nav.png');
+	z-index: 100;
+}
+.navbb{
+	position: fixed;
+	top:0px;
+	width: 100%;
+	background: #6d90a3;
+	z-index: 100;
+	background:url('../images/nav.png');
+}
+.nav{
+	display: flex;
+	width: 75%;
+	height: 100%;
+	z-index: 100;
+	margin-left: 210px;
+}
+.nav li{
+	flex: 1;
+	height: 100%;
+	text-align: center;
+	line-height:50px;
+	text-indent: 15px;
+}
+.nav li a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.navb .nav li a{
+	line-height: 70px;
+}
+.lih:hover{
+	background-color: #27b8d1;
+}

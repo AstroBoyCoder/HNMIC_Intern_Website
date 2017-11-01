@@ -1,0 +1,27 @@
+[ 2017-09-27T13:35:06+08:00 ] 123.125.67.162 /index.php?s=/Home/Experience/subpage/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.338009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.338160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `mic_config` [ RunTime:1.4554s ]
+SQL: SELECT `type`,`name`,`value` FROM `mic_config` WHERE `status` = 1  [ RunTime:0.1001s ]
+SQL: SHOW COLUMNS FROM `mic_document` [ RunTime:1.2131s ]
+SQL: SELECT `title`,`create_time` FROM `mic_document` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.3647s ]
+SQL: SHOW COLUMNS FROM `mic_document_article` [ RunTime:0.5989s ]
+SQL: SELECT `content`,`author`,`keyword` FROM `mic_document_article` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.4875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.379680s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.379764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+

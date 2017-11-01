@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+.title_bg {
+	width: 100%;
+	background: #f5f5f5;
+	padding:120px 0px 20px 0px;
+}
+.title {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;	
+}
+.title h3 {
+	font-size: 40px;
+	letter-spacing: 12px;
+	padding-bottom: 20px;
+	color: #6D90A3;
+}
+.personaltext{
+	height: 40px;
+	line-height: 40px;
+	color:#d2d2d2;
+	font-size:12px;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+.jottings {
+	padding-bottom:20px;
+	background: #f5f5f5;
+}
+.jottings_content {
+	width: 84%;
+	margin: 0 auto;
+}
+.jottings_ul {
+	width: 100%;
+}
+.jottings_ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+}
+.jottings_ul_li {
+	height:270px;
+	width:45%;
+	float: left;
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	margin-bottom: 90px;
+	background-image: url(../images/glowp.png);
+	background-size: 510px 270px;
+	box-shadow: 4px 4px 4px #ccc;
+}
+
+.jottings_ul_li_more {
+	width: 270px;
+}
+.jottings_ul_li .right {
+}
+.jottings_ul_li_more span {
+	display: block;
+	width: 270px;
+	height:270px;
+	background: #000;
+	opacity: 0.5;
+}
+
+.jottings_ul_li_more_text {
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+.jottings_ul_li_more_text h3 {
+	color: #ffffff;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+.jottings_ul_li_more_text p {
+	color: #24B9D1;
+	font-size: 14px;
+	line-height: 35px;
+}
+/*底部*/
+.foot {
+	text-align: center;
+	padding: 55px 0;
+}
+.foot p {
+	line-height: 25px;
+	color: #252525;
+}
+.foot p:first-child {
+	font-weight: bold;
+	color: #000000;
+}

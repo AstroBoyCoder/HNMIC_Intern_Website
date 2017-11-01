@@ -1,0 +1,21 @@
+[ 2017-09-10T12:47:21+08:00 ] 64.233.172.189 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.425849s ]
+INFO: [ app_init ] --END-- [ RunTime:1.476473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.083198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.755510s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.755599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.062872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.062919s ]
+

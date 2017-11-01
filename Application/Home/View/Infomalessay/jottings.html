@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>随笔</title>
+	<link rel="stylesheet" href="__CSS__/jottings.css">
+	<link rel="stylesheet" type="text/css" href="__CSS__/nav.css">
+</head>
+
+<body>
+	<div class="navb">
+		<a class="logo" href="__MODULE__/Index"></a>
+		<ul class="nav">
+			<li><a href="__MODULE__/Index#HIP" style="color: white;" class="lih">HIP</a></li>
+			<li><a href="__MODULE__/personal" style="color: white;" class="lih">个人风采</a></li>
+			<li><a href="__MODULE__/Experience" style="color: white;" class="lih">岗位经验</a></li>
+			<li><a href="#" style="color: white;" class="lih">随笔</a></li>
+		</ul>
+	</div>
+	<div class="title_bg">
+		<div class="title">
+			<h3>随笔</h3>
+			<hr color="#DBDBDB" />
+			<p class="personaltext">这里简单介绍一下MIC2017届实习生的所见所闻、所感所悟</p>
+		</div>
+	</div>
+	<div class="jottings">
+		<div class="jottings_content">
+			<ul class="jottings_ul">
+				<volist name="data" id="item">
+					<li class="jottings_ul_li" style="background-image: url('__ROOT__{$item['cover_path']}');">
+						<a href="__MODULE__/infomalessay/subpage/id/{$item['id']}">
+							<div class="jottings_ul_li_more">
+								<span></span>
+								<div class="jottings_ul_li_more_text">
+									<h3>{$item["title"]}</h3>
+									<p><img src="__IMG__/next_icon.png" alt=""> LEARN MORE</p>
+								</div>
+							</div>
+						</a>
+					</li>
+				</volist>
+			</ul>
+		</div>
+	</div>
+
+	<div class="foot">
+		<p>Hi,partner</p>
+		<p>powered by HIP</p>
+		<p>Hi,partner © 2017 . PRIVACY POLICY</p>
+	</div>
+
+
+	<script src='__JS__/nav.js'></script>
+</body>
+
+</html>
